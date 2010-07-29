@@ -1,0 +1,53 @@
+// !$*UTF8*$!
+{
+	E7824701120143C8003B4D08 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E7824711120143C8003B4D08 /* TakeTurnTimer */;
+		activeTarget = E782470E120143C8003B4D08 /* TakeTurnTimer */;
+		codeSenseManager = E7824705120143C8003B4D08 /* Code sense */;
+		executables = (
+			E7824711120143C8003B4D08 /* TakeTurnTimer */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		userBuildSettings = {
+		};
+	};
+	E7824705120143C8003B4D08 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E782470E120143C8003B4D08 /* TakeTurnTimer */ = {
+		activeExec = 0;
+		executables = (
+			E7824711120143C8003B4D08 /* TakeTurnTimer */,
+		);
+	};
+	E7824711120143C8003B4D08 /* TakeTurnTimer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TakeTurnTimer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+}

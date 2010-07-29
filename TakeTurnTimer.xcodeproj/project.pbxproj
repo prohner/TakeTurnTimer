@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7824713120143C8003B4D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7824712120143C8003B4D08 /* UIKit.framework */; };
+		E7824715120143C8003B4D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7824714120143C8003B4D08 /* Foundation.framework */; };
+		E7824717120143C8003B4D08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7824716120143C8003B4D08 /* CoreGraphics.framework */; };
+		E7824719120143C8003B4D08 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7824718120143C8003B4D08 /* CoreData.framework */; };
+		E782471E120143C8003B4D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E782471C120143C8003B4D08 /* InfoPlist.strings */; };
+		E7824720120143C8003B4D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E782471F120143C8003B4D08 /* main.m */; };
+		E7824723120143C8003B4D08 /* TakeTurnTimerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7824722120143C8003B4D08 /* TakeTurnTimerAppDelegate.m */; };
+		E7824725120143C8003B4D08 /* TakeTurnTimer.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = E7824724120143C8003B4D08 /* TakeTurnTimer.xcdatamodel */; };
+		E7824728120143C8003B4D08 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7824726120143C8003B4D08 /* MainWindow.xib */; };
+		E782472B120143C8003B4D08 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E782472A120143C8003B4D08 /* RootViewController.m */; };
+		E782472E120143C8003B4D08 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E782472C120143C8003B4D08 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E782470F120143C8003B4D08 /* TakeTurnTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeTurnTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7824712120143C8003B4D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7824714120143C8003B4D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7824716120143C8003B4D08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7824718120143C8003B4D08 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E782471A120143C8003B4D08 /* TakeTurnTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TakeTurnTimer-Info.plist"; sourceTree = "<group>"; };
+		E782471B120143C8003B4D08 /* TakeTurnTimer_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakeTurnTimer_Prefix.pch; sourceTree = "<group>"; };
+		E782471D120143C8003B4D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E782471F120143C8003B4D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7824721120143C8003B4D08 /* TakeTurnTimerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakeTurnTimerAppDelegate.h; sourceTree = "<group>"; };
+		E7824722120143C8003B4D08 /* TakeTurnTimerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeTurnTimerAppDelegate.m; sourceTree = "<group>"; };
+		E7824724120143C8003B4D08 /* TakeTurnTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeTurnTimer.xcdatamodel; sourceTree = "<group>"; };
+		E7824727120143C8003B4D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E7824729120143C8003B4D08 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E782472A120143C8003B4D08 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E782472D120143C8003B4D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E782470C120143C8003B4D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7824713120143C8003B4D08 /* UIKit.framework in Frameworks */,
+				E7824715120143C8003B4D08 /* Foundation.framework in Frameworks */,
+				E7824717120143C8003B4D08 /* CoreGraphics.framework in Frameworks */,
+				E7824719120143C8003B4D08 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78246FF120143C8003B4D08 = {
+			isa = PBXGroup;
+			children = (
+				E7824706120143C8003B4D08 /* Models */,
+				E7824707120143C8003B4D08 /* Classes */,
+				E7824708120143C8003B4D08 /* Other Sources */,
+				E7824709120143C8003B4D08 /* Resources */,
+				E782470A120143C8003B4D08 /* Frameworks */,
+				E7824710120143C8003B4D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7824706120143C8003B4D08 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7824724120143C8003B4D08 /* TakeTurnTimer.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E7824707120143C8003B4D08 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7824721120143C8003B4D08 /* TakeTurnTimerAppDelegate.h */,
+				E7824722120143C8003B4D08 /* TakeTurnTimerAppDelegate.m */,
+				E7824729120143C8003B4D08 /* RootViewController.h */,
+				E782472A120143C8003B4D08 /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E7824708120143C8003B4D08 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E782471B120143C8003B4D08 /* TakeTurnTimer_Prefix.pch */,
+				E782471F120143C8003B4D08 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E7824709120143C8003B4D08 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E782471A120143C8003B4D08 /* TakeTurnTimer-Info.plist */,
+				E782471C120143C8003B4D08 /* InfoPlist.strings */,
+				E7824726120143C8003B4D08 /* MainWindow.xib */,
+				E782472C120143C8003B4D08 /* RootViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E782470A120143C8003B4D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7824712120143C8003B4D08 /* UIKit.framework */,
+				E7824714120143C8003B4D08 /* Foundation.framework */,
+				E7824716120143C8003B4D08 /* CoreGraphics.framework */,
+				E7824718120143C8003B4D08 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7824710120143C8003B4D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E782470F120143C8003B4D08 /* TakeTurnTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E782470E120143C8003B4D08 /* TakeTurnTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7824731120143C8003B4D08 /* Build configuration list for PBXNativeTarget "TakeTurnTimer" */;
+			buildPhases = (
+				E782470B120143C8003B4D08 /* Sources */,
+				E782470C120143C8003B4D08 /* Frameworks */,
+				E782470D120143C8003B4D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeTurnTimer;
+			productName = TakeTurnTimer;
+			productReference = E782470F120143C8003B4D08 /* TakeTurnTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7824701120143C8003B4D08 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E7824704120143C8003B4D08 /* Build configuration list for PBXProject "TakeTurnTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E78246FF120143C8003B4D08;
+			productRefGroup = E7824710120143C8003B4D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E782470E120143C8003B4D08 /* TakeTurnTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E782470D120143C8003B4D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E782471E120143C8003B4D08 /* InfoPlist.strings in Resources */,
+				E7824728120143C8003B4D08 /* MainWindow.xib in Resources */,
+				E782472E120143C8003B4D08 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E782470B120143C8003B4D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7824720120143C8003B4D08 /* main.m in Sources */,
+				E7824723120143C8003B4D08 /* TakeTurnTimerAppDelegate.m in Sources */,
+				E7824725120143C8003B4D08 /* TakeTurnTimer.xcdatamodel in Sources */,
+				E782472B120143C8003B4D08 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E782471C120143C8003B4D08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E782471D120143C8003B4D08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7824726120143C8003B4D08 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7824727120143C8003B4D08 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E782472C120143C8003B4D08 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E782472D120143C8003B4D08 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E782472F120143C8003B4D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		E7824730120143C8003B4D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		E7824732120143C8003B4D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TakeTurnTimer_Prefix.pch;
+				INFOPLIST_FILE = "TakeTurnTimer-Info.plist";
+				PRODUCT_NAME = TakeTurnTimer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7824733120143C8003B4D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TakeTurnTimer_Prefix.pch;
+				INFOPLIST_FILE = "TakeTurnTimer-Info.plist";
+				PRODUCT_NAME = TakeTurnTimer;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7824704120143C8003B4D08 /* Build configuration list for PBXProject "TakeTurnTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E782472F120143C8003B4D08 /* Debug */,
+				E7824730120143C8003B4D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7824731120143C8003B4D08 /* Build configuration list for PBXNativeTarget "TakeTurnTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7824732120143C8003B4D08 /* Debug */,
+				E7824733120143C8003B4D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7824701120143C8003B4D08 /* Project object */;
+}
